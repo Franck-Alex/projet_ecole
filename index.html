@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École Excellence - Une éducation d'excellence pour un avenir brillant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'school-blue': '#1e40af',
+                        'school-green': '#059669',
+                        'school-light-blue': '#3b82f6',
+                        'school-light-green': '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="w-10 h-10 bg-school-blue rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-graduation-cap text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-school-blue">École Excellence</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#accueil" class="text-school-blue hover:text-school-green px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                        <a href="#presentation" class="text-gray-700 hover:text-school-green px-3 py-2 rounded-md text-sm font-medium">Présentation</a>
+                        <a href="#programmes" class="text-gray-700 hover:text-school-green px-3 py-2 rounded-md text-sm font-medium">Programmes</a>
+                        <a href="#admissions" class="text-gray-700 hover:text-school-green px-3 py-2 rounded-md text-sm font-medium">Admissions</a>
+                        <a href="#contact" class="text-gray-700 hover:text-school-green px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- En-tête Hero -->
+    <section id="accueil" class="relative bg-gradient-to-r from-school-blue to-school-light-blue text-white pt-16">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <!-- Image d'enfants en uniforme (représentée par une SVG) -->
+                <div class="mb-8 flex justify-center">
+                    <svg width="200" height="150" viewBox="0 0 200 150" class="rounded-lg shadow-lg">
+                        <rect width="200" height="150" fill="#e5f3ff"/>
+                        <!-- Enfants en uniforme stylisés -->
+                        <circle cx="60" cy="60" r="15" fill="#fbbf24"/>
+                        <rect x="50" y="75" width="20" height="30" fill="#1e40af"/>
+                        <rect x="50" y="105" width="20" height="20" fill="#374151"/>
+                        
+                        <circle cx="100" cy="55" r="12" fill="#f59e0b"/>
+                        <rect x="92" y="67" width="16" height="25" fill="#1e40af"/>
+                        <rect x="92" y="92" width="16" height="18" fill="#374151"/>
+                        
+                        <circle cx="140" cy="65" r="18" fill="#d97706"/>
+                        <rect x="128" y="83" width="24" height="35" fill="#1e40af"/>
+                        <rect x="128" y="118" width="24" height="22" fill="#374151"/>
+                        
+                        <text x="100" y="140" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="bold">Nos élèves</text>
+                    </svg>
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    Une éducation d'excellence<br>
+                    <span class="text-school-light-green">pour un avenir brillant</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Découvrez notre école privée dédiée à l'épanouissement et à la réussite de chaque enfant
+                </p>
+                <button onclick="scrollToSection('contact')" class="bg-school-green hover:bg-school-light-green text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                    <i class="fas fa-user-plus mr-2"></i>
+                    Inscrire mon enfant
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Présentation rapide -->
+    <section id="presentation" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Notre École</h2>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-lg text-gray-700 mb-6">
+                        Depuis plus de 20 ans, l'École Excellence accompagne les enfants de Côte d'Ivoire dans leur parcours éducatif. 
+                        Nous offrons un environnement d'apprentissage stimulant qui favorise l'épanouissement personnel et académique de chaque élève.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-8 mt-12">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-school-green rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-star text-white text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-school-blue mb-2">Excellence Académique</h3>
+                            <p class="text-gray-600">Des programmes rigoureux adaptés aux standards internationaux</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-school-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-heart text-white text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-school-blue mb-2">Bienveillance</h3>
+                            <p class="text-gray-600">Un accompagnement personnalisé pour chaque enfant</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-school-light-green rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-globe text-white text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-school-blue mb-2">Ouverture</h3>
+                            <p class="text-gray-600">Une éducation ouverte sur le monde et les cultures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programmes et niveaux -->
+    <section id="programmes" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Nos Programmes Éducatifs</h2>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+                    De la maternelle au secondaire, nous accompagnons vos enfants à chaque étape de leur développement avec des programmes adaptés et innovants
+                </p>
+                <div class="flex justify-center items-center space-x-4 text-sm text-gray-600">
+                    <div class="flex items-center">
+                        <i class="fas fa-users text-school-blue mr-2"></i>
+                        <span>500+ élèves</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-chalkboard-teacher text-school-green mr-2"></i>
+                        <span>25+ enseignants</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-trophy text-yellow-500 mr-2"></i>
+                        <span>95% de réussite</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maternelle Section -->
+            <div class="mb-16">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8 shadow-lg">
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-school-light-blue rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-baby text-white text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-school-blue">Maternelle</h3>
+                                    <p class="text-gray-600">3 à 6 ans • Éveil et développement</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text-gray-700 mb-6">
+                                Notre section maternelle offre un environnement chaleureux et stimulant où chaque enfant peut s'épanouir à son rythme. Nous privilégions l'apprentissage par le jeu et l'exploration.
+                            </p>
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-6">
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Activités d'éveil</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Motricité fine et globale</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Éveil musical et artistique</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Initiation aux langues</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Découverte de la nature</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Apprentissages</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Pré-lecture et pré-écriture</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Mathématiques ludiques</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Expression orale</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Socialisation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4">
+                                <div class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Effectif par classe:</span>
+                                    <span class="font-semibold text-school-blue">15-20 élèves</span>
+                                </div>
+                                <div class="flex items-center justify-between text-sm mt-2">
+                                    <span class="text-gray-600">Horaires:</span>
+                                    <span class="font-semibold text-school-blue">7h30 - 16h30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="order-1 lg:order-2">
+                        <svg width="100%" height="400" viewBox="0 0 500 400" class="rounded-xl shadow-lg">
+                            <rect width="500" height="400" fill="#f0f9ff"/>
+                            <!-- Salle de classe maternelle -->
+                            <rect x="50" y="50" width="400" height="300" fill="#ffffff" stroke="#1e40af" stroke-width="3" rx="10"/>
+                            
+                            <!-- Tables rondes pour enfants -->
+                            <circle cx="150" cy="150" r="30" fill="#10b981" opacity="0.7"/>
+                            <circle cx="350" cy="150" r="30" fill="#3b82f6" opacity="0.7"/>
+                            <circle cx="250" cy="250" r="30" fill="#f59e0b" opacity="0.7"/>
+                            
+                            <!-- Enfants autour des tables -->
+                            <circle cx="130" cy="130" r="8" fill="#fbbf24"/>
+                            <circle cx="170" cy="130" r="8" fill="#f59e0b"/>
+                            <circle cx="150" cy="170" r="8" fill="#d97706"/>
+                            
+                            <circle cx="330" cy="130" r="8" fill="#fbbf24"/>
+                            <circle cx="370" cy="130" r="8" fill="#f59e0b"/>
+                            <circle cx="350" cy="170" r="8" fill="#d97706"/>
+                            
+                            <!-- Coin lecture -->
+                            <rect x="70" y="280" width="80" height="50" fill="#e5f3ff" rx="5"/>
+                            <rect x="75" y="285" width="15" height="20" fill="#1e40af"/>
+                            <rect x="95" y="285" width="15" height="20" fill="#059669"/>
+                            <rect x="115" y="285" width="15" height="20" fill="#1e40af"/>
+                            <text x="110" y="325" text-anchor="middle" fill="#1e40af" font-size="10">Coin lecture</text>
+                            
+                            <!-- Tableau interactif -->
+                            <rect x="200" y="70" width="100" height="60" fill="#374151"/>
+                            <rect x="210" y="80" width="80" height="40" fill="#60a5fa"/>
+                            <text x="250" y="105" text-anchor="middle" fill="#ffffff" font-size="12">ABC 123</text>
+                            
+                            <!-- Jouets éducatifs -->
+                            <rect x="370" y="280" width="60" height="50" fill="#fef3c7" rx="5"/>
+                            <circle cx="385" cy="295" r="5" fill="#f59e0b"/>
+                            <rect x="395" y="290" width="10" height="10" fill="#10b981"/>
+                            <polygon points="405,305 415,305 410,315" fill="#ef4444"/>
+                            <text x="400" y="325" text-anchor="middle" fill="#1e40af" font-size="10">Jeux</text>
+                            
+                            <text x="250" y="380" text-anchor="middle" fill="#1e40af" font-size="16" font-weight="bold">Salle de classe - Maternelle</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Primaire Section -->
+            <div class="mb-16">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <svg width="100%" height="400" viewBox="0 0 500 400" class="rounded-xl shadow-lg">
+                            <rect width="500" height="400" fill="#f0fdf4"/>
+                            <!-- Salle de classe primaire -->
+                            <rect x="50" y="50" width="400" height="300" fill="#ffffff" stroke="#059669" stroke-width="3" rx="10"/>
+                            
+                            <!-- Rangées de bureaux -->
+                            <rect x="80" y="120" width="30" height="20" fill="#1e40af"/>
+                            <rect x="120" y="120" width="30" height="20" fill="#1e40af"/>
+                            <rect x="160" y="120" width="30" height="20" fill="#1e40af"/>
+                            <rect x="200" y="120" width="30" height="20" fill="#1e40af"/>
+                            
+                            <rect x="80" y="160" width="30" height="20" fill="#059669"/>
+                            <rect x="120" y="160" width="30" height="20" fill="#059669"/>
+                            <rect x="160" y="160" width="30" height="20" fill="#059669"/>
+                            <rect x="200" y="160" width="30" height="20" fill="#059669"/>
+                            
+                            <rect x="80" y="200" width="30" height="20" fill="#1e40af"/>
+                            <rect x="120" y="200" width="30" height="20" fill="#1e40af"/>
+                            <rect x="160" y="200" width="30" height="20" fill="#1e40af"/>
+                            <rect x="200" y="200" width="30" height="20" fill="#1e40af"/>
+                            
+                            <!-- Élèves -->
+                            <circle cx="95" cy="110" r="6" fill="#fbbf24"/>
+                            <circle cx="135" cy="110" r="6" fill="#f59e0b"/>
+                            <circle cx="175" cy="110" r="6" fill="#d97706"/>
+                            <circle cx="215" cy="110" r="6" fill="#fbbf24"/>
+                            
+                            <!-- Tableau et enseignant -->
+                            <rect x="280" y="80" width="120" height="80" fill="#374151"/>
+                            <rect x="290" y="90" width="100" height="60" fill="#10b981"/>
+                            <text x="340" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Français</text>
+                            <text x="340" y="130" text-anchor="middle" fill="#ffffff" font-size="10">Conjugaison</text>
+                            <text x="340" y="145" text-anchor="middle" fill="#ffffff" font-size="10">Présent</text>
+                            
+                            <!-- Enseignant -->
+                            <circle cx="320" cy="200" r="12" fill="#fbbf24"/>
+                            <rect x="310" y="212" width="20" height="30" fill="#1e40af"/>
+                            
+                            <!-- Bibliothèque de classe -->
+                            <rect x="350" y="250" width="80" height="80" fill="#e5f3ff" rx="5"/>
+                            <rect x="360" y="260" width="12" height="60" fill="#1e40af"/>
+                            <rect x="375" y="260" width="12" height="60" fill="#059669"/>
+                            <rect x="390" y="260" width="12" height="60" fill="#1e40af"/>
+                            <rect x="405" y="260" width="12" height="60" fill="#059669"/>
+                            <text x="390" y="340" text-anchor="middle" fill="#1e40af" font-size="10">Bibliothèque</text>
+                            
+                            <text x="250" y="380" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">Salle de classe - Primaire</text>
+                        </svg>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl p-8 shadow-lg">
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-school-green rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-book text-white text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-school-blue">Primaire</h3>
+                                    <p class="text-gray-600">6 à 11 ans • Fondamentaux académiques</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text-gray-700 mb-6">
+                                Le cycle primaire pose les bases solides des apprentissages fondamentaux. Nos méthodes pédagogiques innovantes favorisent la compréhension et l'autonomie de chaque élève.
+                            </p>
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-6">
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Matières principales</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Français (lecture, écriture)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Mathématiques</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Anglais intensif</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Sciences et découverte</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Activités complémentaires</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Informatique</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Arts plastiques</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Éducation physique</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Clubs de lecture</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 mb-4">
+                                <h4 class="font-semibold text-school-blue mb-2">Méthodes pédagogiques</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-school-light-blue text-white px-3 py-1 rounded-full text-xs">Pédagogie active</span>
+                                    <span class="bg-school-green text-white px-3 py-1 rounded-full text-xs">Travail en groupe</span>
+                                    <span class="bg-school-light-green text-white px-3 py-1 rounded-full text-xs">Numérique éducatif</span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4">
+                                <div class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Effectif par classe:</span>
+                                    <span class="font-semibold text-school-blue">20-25 élèves</span>
+                                </div>
+                                <div class="flex items-center justify-between text-sm mt-2">
+                                    <span class="text-gray-600">Horaires:</span>
+                                    <span class="font-semibold text-school-blue">7h30 - 17h00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secondaire Section -->
+            <div class="mb-16">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8 shadow-lg">
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-school-blue rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-graduation-cap text-white text-2xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-school-blue">Secondaire</h3>
+                                    <p class="text-gray-600">12 à 18 ans • Préparation supérieure</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text-gray-700 mb-6">
+                                Notre cycle secondaire prépare les élèves aux examens nationaux et à l'enseignement supérieur avec un accompagnement personnalisé et des filières diversifiées.
+                            </p>
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-6">
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Filières disponibles</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Série A (Littéraire)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Série C (Mathématiques)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Série D (Sciences)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Série G (Gestion)</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-school-blue mb-3">Préparation examens</h4>
+                                    <ul class="text-sm text-gray-600 space-y-1">
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>BEPC (Brevet)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>BAC (Baccalauréat)</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Concours d'entrée</li>
+                                        <li><i class="fas fa-check text-school-green mr-2"></i>Orientation post-bac</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4 mb-4">
+                                <h4 class="font-semibold text-school-blue mb-3">Laboratoires et équipements</h4>
+                                <div class="grid grid-cols-2 gap-4 text-sm">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-flask text-school-green mr-2"></i>
+                                        <span class="text-gray-600">Labo Sciences</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-desktop text-school-blue mr-2"></i>
+                                        <span class="text-gray-600">Salle informatique</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-language text-school-light-green mr-2"></i>
+                                        <span class="text-gray-600">Labo langues</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-microscope text-school-light-blue mr-2"></i>
+                                        <span class="text-gray-600">Labo SVT</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-lg p-4">
+                                <div class="flex items-center justify-between text-sm">
+                                    <span class="text-gray-600">Effectif par classe:</span>
+                                    <span class="font-semibold text-school-blue">25-30 élèves</span>
+                                </div>
+                                <div class="flex items-center justify-between text-sm mt-2">
+                                    <span class="text-gray-600">Taux de réussite BAC:</span>
+                                    <span class="font-semibold text-school-green">95%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="order-1 lg:order-2">
+                        <svg width="100%" height="400" viewBox="0 0 500 400" class="rounded-xl shadow-lg">
+                            <rect width="500" height="400" fill="#fefce8"/>
+                            <!-- Laboratoire de sciences -->
+                            <rect x="50" y="50" width="400" height="300" fill="#ffffff" stroke="#1e40af" stroke-width="3" rx="10"/>
+                            
+                            <!-- Tables de laboratoire -->
+                            <rect x="80" y="120" width="80" height="40" fill="#374151"/>
+                            <rect x="180" y="120" width="80" height="40" fill="#374151"/>
+                            <rect x="280" y="120" width="80" height="40" fill="#374151"/>
+                            
+                            <rect x="80" y="200" width="80" height="40" fill="#374151"/>
+                            <rect x="180" y="200" width="80" height="40" fill="#374151"/>
+                            <rect x="280" y="200" width="80" height="40" fill="#374151"/>
+                            
+                            <!-- Équipements de laboratoire -->
+                            <circle cx="100" cy="140" r="8" fill="#10b981"/>
+                            <rect x="95" y="132" width="10" height="5" fill="#059669"/>
+                            
+                            <circle cx="200" cy="140" r="8" fill="#3b82f6"/>
+                            <rect x="195" y="132" width="10" height="5" fill="#1e40af"/>
+                            
+                            <circle cx="300" cy="140" r="8" fill="#f59e0b"/>
+                            <rect x="295" y="132" width="10" height="5" fill="#d97706"/>
+                            
+                            <!-- Microscopes -->
+                            <rect x="110" y="210" width="15" height="20" fill="#6b7280"/>
+                            <circle cx="117" cy="205" r="3" fill="#374151"/>
+                            
+                            <rect x="210" y="210" width="15" height="20" fill="#6b7280"/>
+                            <circle cx="217" cy="205" r="3" fill="#374151"/>
+                            
+                            <!-- Tableau avec formules -->
+                            <rect x="320" y="80" width="100" height="60" fill="#374151"/>
+                            <rect x="330" y="90" width="80" height="40" fill="#10b981"/>
+                            <text x="370" y="105" text-anchor="middle" fill="#ffffff" font-size="10">H₂O + CO₂</text>
+                            <text x="370" y="118" text-anchor="middle" fill="#ffffff" font-size="10">C₆H₁₂O₆</text>
+                            <text x="370" y="130" text-anchor="middle" fill="#ffffff" font-size="8">Photosynthèse</text>
+                            
+                            <!-- Armoires de rangement -->
+                            <rect x="70" y="280" width="60" height="50" fill="#e5f3ff"/>
+                            <rect x="75" y="285" width="10" height="40" fill="#1e40af"/>
+                            <rect x="90" y="285" width="10" height="40" fill="#059669"/>
+                            <rect x="105" y="285" width="10" height="40" fill="#1e40af"/>
+                            <text x="100" y="340" text-anchor="middle" fill="#1e40af" font-size="10">Matériel</text>
+                            
+                            <!-- Étudiants -->
+                            <circle cx="120" cy="110" r="8" fill="#fbbf24"/>
+                            <circle cx="140" cy="110" r="8" fill="#f59e0b"/>
+                            <circle cx="220" cy="110" r="8" fill="#d97706"/>
+                            <circle cx="240" cy="110" r="8" fill="#fbbf24"/>
+                            
+                            <text x="250" y="380" text-anchor="middle" fill="#1e40af" font-size="16" font-weight="bold">Laboratoire de Sciences - Secondaire</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section activités extra-scolaires -->
+            <div class="bg-gradient-to-r from-school-blue to-school-green rounded-xl p-8 text-white text-center">
+                <h3 class="text-2xl font-bold mb-4">Activités Extra-scolaires</h3>
+                <p class="mb-6 max-w-3xl mx-auto">
+                    Développez les talents de vos enfants grâce à nos nombreuses activités complémentaires
+                </p>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-music text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Musique</h4>
+                        <p class="text-sm opacity-90">Chorale, piano, guitare</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-running text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Sports</h4>
+                        <p class="text-sm opacity-90">Football, basketball, athlétisme</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-palette text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Arts</h4>
+                        <p class="text-sm opacity-90">Peinture, sculpture, théâtre</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-robot text-white text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Technologie</h4>
+                        <p class="text-sm opacity-90">Robotique, programmation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie photo -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Nos Infrastructures</h2>
+                <p class="text-lg text-gray-700">Des espaces modernes et adaptés à l'apprentissage</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Salle de classe -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <svg width="100%" height="250" viewBox="0 0 400 250" class="w-full h-64 object-cover">
+                        <rect width="400" height="250" fill="#f0f9ff"/>
+                        <rect x="50" y="50" width="300" height="150" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+                        <rect x="70" y="70" width="80" height="50" fill="#1e40af"/>
+                        <rect x="170" y="70" width="80" height="50" fill="#1e40af"/>
+                        <rect x="270" y="70" width="80" height="50" fill="#1e40af"/>
+                        <rect x="70" y="140" width="80" height="40" fill="#059669"/>
+                        <rect x="170" y="140" width="80" height="40" fill="#059669"/>
+                        <rect x="270" y="140" width="80" height="40" fill="#059669"/>
+                        <text x="200" y="230" text-anchor="middle" fill="#1e40af" font-size="16" font-weight="bold">Salles de classe modernes</text>
+                    </svg>
+                    <div class="absolute inset-0 bg-school-blue bg-opacity-0 group-hover:bg-opacity-20 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Salles de classe</span>
+                    </div>
+                </div>
+
+                <!-- Bibliothèque -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <svg width="100%" height="250" viewBox="0 0 400 250" class="w-full h-64 object-cover">
+                        <rect width="400" height="250" fill="#f0fdf4"/>
+                        <rect x="50" y="50" width="300" height="150" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+                        <rect x="70" y="70" width="15" height="100" fill="#1e40af"/>
+                        <rect x="90" y="70" width="15" height="100" fill="#059669"/>
+                        <rect x="110" y="70" width="15" height="100" fill="#1e40af"/>
+                        <rect x="130" y="70" width="15" height="100" fill="#059669"/>
+                        <rect x="200" y="120" width="120" height="60" fill="#f3f4f6"/>
+                        <circle cx="260" cy="150" r="15" fill="#fbbf24"/>
+                        <text x="200" y="230" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">Bibliothèque équipée</text>
+                    </svg>
+                    <div class="absolute inset-0 bg-school-green bg-opacity-0 group-hover:bg-opacity-20 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Bibliothèque</span>
+                    </div>
+                </div>
+
+                <!-- Terrain de sport -->
+                <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                    <svg width="100%" height="250" viewBox="0 0 400 250" class="w-full h-64 object-cover">
+                        <rect width="400" height="250" fill="#ecfdf5"/>
+                        <rect x="50" y="50" width="300" height="150" fill="#22c55e" stroke="#ffffff" stroke-width="3"/>
+                        <line x1="200" y1="50" x2="200" y2="200" stroke="#ffffff" stroke-width="2"/>
+                        <circle cx="200" cy="125" r="30" fill="none" stroke="#ffffff" stroke-width="2"/>
+                        <rect x="50" y="100" width="20" height="50" fill="none" stroke="#ffffff" stroke-width="2"/>
+                        <rect x="330" y="100" width="20" height="50" fill="none" stroke="#ffffff" stroke-width="2"/>
+                        <text x="200" y="230" text-anchor="middle" fill="#059669" font-size="16" font-weight="bold">Terrain de sport</text>
+                    </svg>
+                    <div class="absolute inset-0 bg-school-light-green bg-opacity-0 group-hover:bg-opacity-20 transition duration-300 flex items-center justify-center">
+                        <span class="text-white font-semibold opacity-0 group-hover:opacity-100 transition duration-300">Terrain de sport</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions -->
+    <section id="admissions" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Processus d'Admission</h2>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    Rejoignez notre communauté éducative en quelques étapes simples
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-school-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white font-bold text-xl">1</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-school-blue mb-2">Prise de contact</h3>
+                    <p class="text-gray-600">Contactez-nous pour une première rencontre</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-school-green rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white font-bold text-xl">2</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-school-blue mb-2">Dossier</h3>
+                    <p class="text-gray-600">Constitution du dossier d'inscription</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-school-light-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white font-bold text-xl">3</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-school-blue mb-2">Entretien</h3>
+                    <p class="text-gray-600">Rencontre avec l'équipe pédagogique</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-school-light-green rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white font-bold text-xl">4</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-school-blue mb-2">Inscription</h3>
+                    <p class="text-gray-600">Finalisation de l'inscription</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <button onclick="downloadBrochure()" class="bg-school-green hover:bg-school-light-green text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                    <i class="fas fa-download mr-2"></i>
+                    Télécharger la plaquette PDF
+                </button>
+                <p class="text-sm text-gray-600 mt-2">*Fonctionnalité de démonstration</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Témoignages de Parents</h2>
+                <p class="text-lg text-gray-700">Ce que disent les familles qui nous font confiance</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-school-blue rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-school-blue">Mme Kouassi</h4>
+                            <p class="text-gray-600 text-sm">Maman d'Aya, CM1</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Excellente école ! Ma fille s'épanouit pleinement et les enseignants sont très attentionnés. 
+                        Je recommande vivement cette école à tous les parents."
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-school-green rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-school-blue">M. Traoré</h4>
+                            <p class="text-gray-600 text-sm">Papa de Koffi, 3ème</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Les résultats de mon fils se sont considérablement améliorés depuis qu'il est dans cette école. 
+                        L'encadrement est exceptionnel et les infrastructures sont modernes."
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-school-light-green rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-school-blue">Mme Bamba</h4>
+                            <p class="text-gray-600 text-sm">Maman de Fatou, Grande Section</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Une école bienveillante où chaque enfant compte. Ma fille adore aller à l'école et 
+                        progresse rapidement grâce à l'attention personnalisée des enseignants."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">À Propos de Notre École</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-school-blue mb-6">Notre Équipe Pédagogique</h3>
+                    <p class="text-gray-700 mb-6">
+                        Notre équipe est composée d'enseignants qualifiés et passionnés, dédiés à l'excellence éducative. 
+                        Chaque membre de notre personnel partage notre vision d'une éducation de qualité pour tous.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-school-blue rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-chalkboard-teacher text-white"></i>
+                            </div>
+                            <span class="text-gray-700">25+ enseignants certifiés</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-school-green rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-users text-white"></i>
+                            </div>
+                            <span class="text-gray-700">Personnel administratif dévoué</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-school-light-blue rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-heart text-white"></i>
+                            </div>
+                            <span class="text-gray-700">Accompagnement psycho-pédagogique</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold text-school-blue mb-6">Nos Valeurs</h3>
+                    <div class="space-y-6">
+                        <div class="border-l-4 border-school-blue pl-6">
+                            <h4 class="font-semibold text-school-blue mb-2">Excellence</h4>
+                            <p class="text-gray-700">Nous visons l'excellence dans tous les aspects de l'éducation</p>
+                        </div>
+                        <div class="border-l-4 border-school-green pl-6">
+                            <h4 class="font-semibold text-school-blue mb-2">Respect</h4>
+                            <p class="text-gray-700">Le respect mutuel est au cœur de notre communauté éducative</p>
+                        </div>
+                        <div class="border-l-4 border-school-light-green pl-6">
+                            <h4 class="font-semibold text-school-blue mb-2">Innovation</h4>
+                            <p class="text-gray-700">Nous adoptons des méthodes pédagogiques modernes et innovantes</p>
+                        </div>
+                        <div class="border-l-4 border-school-light-blue pl-6">
+                            <h4 class="font-semibold text-school-blue mb-2">Solidarité</h4>
+                            <p class="text-gray-700">Nous cultivons l'esprit de solidarité et d'entraide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-school-blue mb-6">Contactez-Nous</h2>
+                <p class="text-lg text-gray-700">Nous sommes là pour répondre à toutes vos questions</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Informations de contact -->
+                <div>
+                    <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                        <h3 class="text-xl font-bold text-school-blue mb-6">Nos Coordonnées</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-school-blue rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-school-blue">Adresse</p>
+                                    <p class="text-gray-700">Cocody, Abidjan, Côte d'Ivoire</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-school-green rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-phone text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-school-blue">Téléphone</p>
+                                    <p class="text-gray-700">+225 27 22 XX XX XX</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-school-light-green rounded-full flex items-center justify-center mr-4">
+                                    <i class="fab fa-whatsapp text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-school-blue">WhatsApp</p>
+                                    <p class="text-gray-700">+225 07 XX XX XX XX</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-school-light-blue rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-envelope text-white"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-school-blue">Email</p>
+                                    <p class="text-gray-700">contact@ecole-excellence.ci</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Google Maps (représentation) -->
+                    <div class="bg-white rounded-xl p-4 shadow-lg">
+                        <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+                            <div class="text-center">
+                                <i class="fas fa-map-marked-alt text-school-blue text-4xl mb-2"></i>
+                                <p class="text-school-blue font-semibold">Carte Google Maps</p>
+                                <p class="text-gray-600 text-sm">Localisation de l'école</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Formulaire de contact -->
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <h3 class="text-xl font-bold text-school-blue mb-6">Envoyez-nous un message</h3>
+                    <p class="text-sm text-gray-600 mb-6">*Formulaire de démonstration</p>
+                    
+                    <form onsubmit="submitContactForm(event)" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nom complet *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-school-blue focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                            <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-school-blue focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Téléphone</label>
+                            <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-school-blue focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Niveau souhaité</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-school-blue focus:border-transparent">
+                                <option>Sélectionnez un niveau</option>
+                                <option>Maternelle</option>
+                                <option>Primaire</option>
+                                <option>Secondaire</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                            <textarea required rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-school-blue focus:border-transparent" placeholder="Décrivez votre demande..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-school-blue hover:bg-school-light-blue text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-school-blue text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-graduation-cap text-school-blue text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">École Excellence</span>
+                    </div>
+                    <p class="text-blue-200">
+                        Une éducation d'excellence pour un avenir brillant
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Liens Rapides</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#accueil" class="text-blue-200 hover:text-white transition duration-300">Accueil</a></li>
+                        <li><a href="#presentation" class="text-blue-200 hover:text-white transition duration-300">Présentation</a></li>
+                        <li><a href="#programmes" class="text-blue-200 hover:text-white transition duration-300">Programmes</a></li>
+                        <li><a href="#admissions" class="text-blue-200 hover:text-white transition duration-300">Admissions</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Programmes</h4>
+                    <ul class="space-y-2">
+                        <li><span class="text-blue-200">Maternelle</span></li>
+                        <li><span class="text-blue-200">Primaire</span></li>
+                        <li><span class="text-blue-200">Secondaire</span></li>
+                        <li><span class="text-blue-200">Activités extra-scolaires</span></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-blue-200">Cocody, Abidjan</li>
+                        <li class="text-blue-200">+225 27 22 XX XX XX</li>
+                        <li class="text-blue-200">contact@ecole-excellence.ci</li>
+                    </ul>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-blue-200 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-200 hover:text-white transition duration-300">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-200 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-600 mt-8 pt-8 text-center">
+                <p class="text-blue-200">
+                    © 2024 École Excellence. Tous droits réservés.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation fluide
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Gestion des liens de navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Téléchargement de la plaquette (démonstration)
+        function downloadBrochure() {
+            alert('Fonctionnalité de démonstration : La plaquette PDF serait téléchargée ici dans un vrai site web.');
+        }
+
+        // Soumission du formulaire de contact (démonstration)
+        function submitContactForm(event) {
+            event.preventDefault();
+            alert('Merci pour votre message ! Nous vous contacterons bientôt.\n\n(Ceci est une démonstration - dans un vrai site, le message serait envoyé)');
+        }
+
+        // Animation au scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Animation des cartes au survol
+        document.querySelectorAll('.group').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'967f7efd4305e0a5',t:'MTc1Mzk5MDA3Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
